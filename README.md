@@ -3,4 +3,6 @@ Just use location finder and choose your custom icon/logo for Google Map. Use ou
 
 
 You can find plugin documentation below adress
+
+
 http://www.wp-samurai.com/documentation/oneclick-google-map
