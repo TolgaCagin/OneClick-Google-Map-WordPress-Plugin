@@ -1,0 +1,172 @@
+/*
+
+____    __    ____ .______             _______.     ___      .___  ___.  __    __  .______           ___       __  
+\   \  /  \  /   / |   _  \           /       |    /   \     |   \/   | |  |  |  | |   _  \         /   \     |  | 
+ \   \/    \/   /  |  |_)  |  ______ |   (----`   /  ^  \    |  \  /  | |  |  |  | |  |_)  |       /  ^  \    |  | 
+  \            /   |   ___/  |______| \   \      /  /_\  \   |  |\/|  | |  |  |  | |      /       /  /_\  \   |  | 
+   \    /\    /    |  |           .----)   |    /  _____  \  |  |  |  | |  `--'  | |  |\  \----. /  _____  \  |  | 
+    \__/  \__/     | _|           |_______/    /__/     \__\ |__|  |__|  \______/  | _| `._____|/__/     \__\ |__| 
+                                                                                                                   
+                                                                                                               
+                                                                                                               
+*/
+
+/* Button Works */
+.support_button {
+    margin-left:80%;
+    padding-right:15px;
+    margin-top:-55px;
+    float:right;
+}
+.vtop {
+    vertical-align: top;
+}
+.support {
+    transition: all .2s ease-in-out;
+    margin-right:15px;
+    margin-top:15px;
+}
+.support:hover {
+    transform: scale(1.10);
+}
+.callsupport {
+    transition: all .2s ease-in-out;
+}
+.callsupport:hover {
+    transform: scale(1.05);
+}
+/* DIV WORKS */
+#main_div {
+    height:175px;
+    margin-right:auto;
+    margin-left:auto;
+    background-image:url(../images/seamless-geo.jpg);
+    background-repeat:no-repeat;
+    background-position:center right;
+}
+.img {
+    max-width:100%;
+    height:auto;
+}
+.imgsupport {
+    max-width:100%;
+    height:auto;
+}
+#TB_window {
+    height:600px;
+}
+.main_container {
+    margin-top:20px;
+    margin-right:1%;
+}
+#div1 {
+    width:50%;
+    display:inline-block;
+    float:left;
+    margin-left:10px;
+    margin-top:10px;
+}
+#div2 {
+    width:40%;
+    text-align:left;
+    display:inline-block;
+    float:right;
+    padding-top: 10px;
+}
+#div_footer_logo {
+    margin-right: 2%;
+    margin-top:5px;
+}
+.margintopminus33{
+    margin-top:-33px;
+}
+.paddingbottom30px{
+    padding-bottom:30px;
+    text-decoration: none;
+}
+.paddingbottom30px a{
+    text-decoration: none;
+}
+.divborder{
+    border: 1px solid #ccc;
+    margin-top: -17px;
+    border-top:none;
+    padding-bottom:40px;
+}
+.wrapcustom{
+    margin-left: 10px;
+    padding-top: 15px;
+}
+.makecenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+.tutorial {
+    width:248px;
+    height:138px;
+    margin:30px auto;
+    perspective:246px;
+}
+.tutposition{
+    display:inline-block;
+    margin-right:15px;
+}
+.tutorial a {
+    display:block;
+    width:100%;
+    height:100%;
+    background-size:0,cover;
+    transform-style:preserve-3d;
+    transition:all .5s;
+}
+.tutorial:hover a {
+    transform:rotateX(80deg);
+    transform-origin:bottom;
+}
+.tutorial a:after {
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:24px;
+    background:inherit;
+    background-size:cover,cover;
+    background-position:bottom;
+    transform:rotateX(90deg);
+    transform-origin:bottom;
+}
+.tutorial a span {
+    color:black;
+    text-transform:capitalize;
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    padding-top:5px;
+    font:bold 12px/14px Expletus Sans;
+    text-align:center;
+    font-style:italic;
+    transform:rotateX(-89.99deg);
+    transform-origin:top;
+    z-index:1;
+}
+.tutorial a:before {
+    content:'';
+    position:absolute;
+    top:-55px;
+    left:35px;
+    width:70%;
+    height:100%;
+    background:rgba(0,0,0,0.4);
+    box-shadow:0 0 90px 50px rgba(0,0,0,0.5);
+    transition:all .5s;
+    opacity:.15;
+    transform:rotateX(95deg) translateZ(-80px) scale(0.75);
+    transform-origin:bottom;
+}
+.tutorial:hover a:before {
+    opacity:1;
+    box-shadow:0 0 25px 25px rgba(0,0,0,0.5);
+    transform:rotateX(0deg) translateZ(-60px) scale(0.85);
+}
