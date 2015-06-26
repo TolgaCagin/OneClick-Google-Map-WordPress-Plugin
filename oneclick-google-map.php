@@ -1,7 +1,7 @@
 <?php
 /*
 * Plugin Name: OneClick Google Map
-* Plugin URI: http://www.wp-samurai.com/oneclick-google-map-wordpress-plugin/
+* Plugin URI: http://www.wp-samurai.com/
 * Description: Just use location finder and choose your custom icon/logo for Google Map. Use our buttons for show in your content, Super Easy & Highly Customizable
 * Version: 1.0
 * Author: Wp-Samurai
